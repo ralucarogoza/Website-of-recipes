@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Rețete</title>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="calatorii, vacante, sejur, zboruri internationale"/>
+        <meta name="description" content="Oferte calatorii, excursii internationale, cazare, ghid turistic. Preturi mici."/>
+        <meta name="author" content="Raluca Rogoza"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="./resurse/ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./resurse/ico/favicon-32x32.png"> 
+        <link rel="icon" type="image/png" sizes="16x16" href="./resurse/ico/favicon-16x16.png">
+        <link rel="manifest" href="./resurse/ico/site.webmanifest">
+        <link rel="mask-icon" href="./resurse/ico/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./resurse/ico/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="./resurse/ico/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css" href="./resurse/css/main.css"/>
+        <script src="../../resurse/js/fis2.js"></script>
+
+    </head>
+    <body>
+        <!-- <% include %>    scrie cod js in ejs-->
+        <%- include("../fragmente/header.ejs")%>
+        <main>
+           <h2>Inregistrare</h2>
+           <p>Va puteti face un cont pe site-ul nostru pentru a fi la curent cu toate update-urile noastre.</p>
+           <% if(!locals.raspuns) { %>
+            <form method="post" action="/inregistrare">
+                <label>
+                    Username:<input type="text" name="username" required/>
+                </label><br><br>
+                <label>
+                    Parola: <input type="password" name="parola" required/>
+                </label><br><br>
+                <label>
+                    Email: <input type="text" name="email" />
+                </label><br><br>
+                <label>
+                    Varsta: <input type="number" name="varsta" />
+                </label><br><br>
+                <input type="submit" value="Trimite">
+                <input type="reset" value="Reset">
+            </form>
+            <% } else { %>
+                <p>Date introduse!</p>
+            <% } %>
+        </main>
+
+        <%- include("../fragmente/footer.ejs")%>
+    </body>
+
+</html>
