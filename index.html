@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Rețete</title>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="calatorii, vacante, sejur, zboruri internationale"/>
+        <meta name="description" content="Oferte calatorii, excursii internationale, cazare, ghid turistic. Preturi mici."/>
+        <meta name="author" content="Raluca Rogoza"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="./resurse/ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./resurse/ico/favicon-32x32.png"> 
+        <link rel="icon" type="image/png" sizes="16x16" href="./resurse/ico/favicon-16x16.png">
+        <link rel="manifest" href="./resurse/ico/site.webmanifest">
+        <link rel="mask-icon" href="./resurse/ico/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./resurse/ico/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="./resurse/ico/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css" href="./resurse/css/main.css"/>
+        
+        <script src="./resurse/js/fis.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1>Site de rețete</h1>
+            <br><br>
+            <nav>
+                <label for="chk-meniu"><img id="img_meniu" src="./resurse/imagini/hamburger.png" alt="meniu"></label>
+                <input type="checkbox" id="chk-meniu"/>
+                <ul class="meniu">
+                    <li><a href="index.html">Acasa</a>
+                        <ul class="submeniu">
+                            <li><a href="index.html#salut">Salut!</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="index.html#preparate">Preparate</a>
+                        <ul class="submeniu2">
+                            <li><a href="index.html#preparates">Preparate sarate</a></li>
+                            <li><a href="index.html#preparated">Preparate dulci</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#inregistrare">Inregistrare</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="data"></div>
+            <br>
+            <section id="salut">
+                <br><h1 id="buna">Bun venit!</h1><br>
+                <div id="divcitat">
+                    <p id="center2">bake it till you make it</p>
+                </div>
+                <br><br>
+                <p>In cele ce vor urma va vom arata cateva retete delicioase si <s>greu</s>&nbsp;<ins>usor</ins> de facut.</p>
+                <p>Site-ul este actualizat mereu cu noi retete.<strong> Stay tuned!</strong></p>
+                <br>
+                <figure>
+                    <picture>
+                        <source media="(min-width:1400px)" srcset="./resurse/imagini/bkg1.jpg">
+                        <source media="(min-width:700px)" srcset="./resurse/imagini/bkg2.jpg">
+                        <img src="./resurse/imagini/bkg3.jpg" style="width:auto">
+                    </picture>
+                    <figcaption>Baking</figcaption>
+                </figure>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </section>
+            <section id="inregistrare">
+                <h2>Inregistrare</h2>
+                <p>Va puteti face un cont pe site-ul nostru pentru a fi la curent cu toate update-urile noastre.</p>
+            </section>
+            <div id="container">
+                <section id="preparates">
+                    <h2>Preparate sarate</h2>
+                    <p>Va vom prezenta urmatoarele<b> preparate </b>:</p>
+                    <ol>
+                        <li>Pui cu orez - 58kcal</li>
+                        <li>Pizza - 266kcal</li>
+                        <li>Lasagna - 135kcal</li>
+                        <li>Musaca - 172kcal</li>
+                        <li>Pui cu smantana - 162kcal</li>
+                        <li>Tocanita - 123kcal</li>
+                        <li>Ciorba de legume - 46kcal</li>
+                        <li>Sarmale - 186kcal</li>
+                        <li>Spaghete carbonara - 416kcal</li>
+                        <li>Wrap - 228kcal</li>
+                    </ol>
+                    <br>
+                    <br>
+                    <div id="preparate1"></div>
+                    
+                    
+                    <br>
+                    <button id="sorteaza_kcal1">Sorteaza preparatele dupa kcal</button>
+                </section>
+
+                <section id="preparated">
+                    <h2>Preparate dulci</h2>
+                    <p>Va vom prezenta urmatoarele<b> preparate </b>:</p>
+                    <ol>
+                        <li>Mucenici - 294kcal</li>
+                        <li>Eclere - 300kcal</li>
+                        <li>Clatite americane - 226kcal</li>
+                        <li>Placinta cu mere - 186kcal</li>
+                        <li>Lava cake - 350kcal</li>
+                        <li>Chec - 363kcal</li>
+                        <li>Cozonac - 540kcal</li>
+                        <li>Briose - 346kcal</li>
+                        <li>Gogosi - 426kcal</li>
+                        <li>Tort de biscuiti - 345kcal</li>
+                    </ol>
+                    <br/>
+                    <br/>
+                    <div id="preparate2"></div>
+                    <br>
+                    <button id="sorteaza_kcal2">Sorteaza preparatele dupa kcal</button>
+                </section>
+                <div id="comun">
+                    <button id="sterge_preparate">Sterge un tip de preparate</button>
+                </div>
+                <section id="s1">
+                    <h3>Pui cu orez</h3>
+                    <p>Ingrediente:</p>
+                    <ul>
+                        <li>2 pulpe de pui dezosate + 2 aripioare <input type="checkbox"></li>
+                        <li>200 grame orez <input type="checkbox"></li>
+                        <li>1 ceapa <input type="checkbox"></li>
+                        <li>1 morcov <input type="checkbox"></li>
+                        <li>2 linguri boia <input type="checkbox"></li>
+                        <li>800 ml apa fiarta <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                        <li>piper <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare:</p>
+                    <ol>
+                        <li>Se curata ceapa si se toaca marunt.</li>
+                        <li>Morcovul se curata si se rade prin razatoarea cu ochiuri mari.</li>
+                        <li>Carnea se taie bucati.</li>
+                        <li>Intr-un vas incapator se asaza bucatile de carne, apoi ceapa tocata, morcovul ras si condimentele.</li>
+                        <li>Se amesteca bine totul si se da la cuptor pt cca 15 min, 180 grade. Acest pas inlocuieste calirea legumelor si prajirea anterioara a bucatilor de carne. Nu este nevoie de apa sau alt lichis adaugat, deoarece grasimea din pulpe si aripioare este suficienta.</li>
+                        <li>Se scoate apoi vasul din cuptor, se adauga orezul (eu prefer orezul cu bob lung, deoarece nu riscam sa se lipeasca si sa devina inestetic) si cca 800 ml apa fiarta, sau cat este nevoie pentru a acoperi foarte bine carnea si orezul. Prefer sa adaug apa fiarta din doua motive: deoarece carnea si vasul sunt fierbinti, iar daca as adauga apa rece, as risca spargerea vasului. Apoi, pentru ca apa fierbinte grabeste procesul de gatire.</li>
+                        <li>Se reintroduce vasul in cuptor pentru cca 30 min, 180 grade.</li>
+                        <li>La final, veti observa cum orezul se gateste perfect, nu este prea moale, isi pastreaza tinuta si aspectul, iar bucatile de carne sunt rumene si gustoase.</li>
+                        <li>Se decoreaza cu patrunjel tocat sau ceapa verde rondele.</li>
+                    </ol>
+                    <img src="./resurse/imagini/pui cu orez.jpg" style="width:500px"><br>
+                    
+
+
+                </section>
+                <section>
+                    <h3>Pizza</h3>
+                    <p>Ingrediente:</p>
+                    <ul>
+                        Aluat
+                        <li>700 g faina <input type="checkbox"></li>
+                        <li>300 ml apa calda <input type="checkbox"></li>
+                        <li>30 g drojdie <input type="checkbox"></li>
+                        <li>1/2 lingurita sare <input type="checkbox"></li>
+                        <li>100 ml ulei <input type="checkbox"></li>
+                        <li>o lingurita zahar <input type="checkbox"></li>
+                        Topping
+                        <li>piept de pui <input type="checkbox"></li>
+                        <li>ardei <input type="checkbox"></li>
+                        <li>ciuperci <input type="checkbox"></li>
+                        <li>masline <input type="checkbox"></li>
+                        <li>cascaval <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare:</p>
+                    <ol>
+                        <li>Se cerne faina si se pune intr-un vas incapator.</li>
+                        <li>Peste ea se adauga sarea si drojdia amestecata cu zaharul si putina apa calduta.</li>
+                        <li>Se framanta adaugand apa putin cate putin pana ce aluatul capata consistenta potrivita.</li>
+                        <li>Adaugam uleiul si framnatam in continuare pana ce aluatul se desprinde de pe maini si se incorporeaza tot uleiul.</li>
+                        <li>Se lasa la dospit pana isi dubleaza volumul.</li>
+                        <li>Se unge o tava cu ulei sau se tapeteaza cu hartie de copt si se intinde aluatul intr-o foaie subtire.</li>
+                        <li>Deasupra se pune un strat foarte subtire de sos de rosii, un strat de cascaval ras, pieptul de pui facut la gratar apoi taiat fasii, ciupercile, rondelele de ardei gras, maslinele si iar cascavalul ras.</li>
+                        <li>Pizza cu piept de pui se coace in cuptor preincalzit la 240 grade C timp de 20 min.</li>
+
+                    </ol>
+                    <img src="./resurse/imagini/pizza.jpg" style="width:500px"></iframe>
+                    
+                </section>
+                <section>
+                    <h3>Lasagna</h3>
+                    <p>Ingrediente:</p>
+                    <ul>
+                        <li>sare <input type="checkbox"></li>
+                        <li>2 cutii de rosii decojite <input type="checkbox"></li>
+                        <li>1 pachet foi lasagna <input type="checkbox"></li>
+                        <li>2-3 catei de usturoi <input type="checkbox"></li>
+                        <li>100 ml vin alb <input type="checkbox"></li>
+                        <li>200g cascaval ras <input type="checkbox"></li>
+                        <li>100g mozarella <input type="checkbox"></li>
+                        <li>2 linguri ulei <input type="checkbox"></li>
+                        <li>50g unt <input type="checkbox"></li>
+                        Sosul alb
+                        <li>70g unt <input type="checkbox"></li>
+                        <li>70g faina <input type="checkbox"></li>
+                        <li>1l lapte <input type="checkbox"></li>
+                        <li>2 cepe <input type="checkbox"></li>
+                        <li>4 ciuperci albe <input type="checkbox"></li>
+                        <li>nucsoara <input type="checkbox"></li>
+                        <li>500g carne tocata <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare:</p>
+                    <ol>
+                        <li>Se prepară sosul de carne pentru care se pun la călit în 50 g unt ceapa tocată mărunt, ciupercile curăţate şi tăiate mărunt şi usturoiul feliat. Se adaugă şi carnea, roşiile tăiate mărunt, vinul şi două linguri de ulei. Se fierb la foc mic timp de 45 de minute până ce sosul scade bine.</li>
+                        <li>Pentru sosul alb de lasagna se fierbe laptele şi se lasă deoparte. Într-o cratiţă încăpătoare se topeşte untul şi se adaugă făina care se amestecă rapid în untul topit. Se lasă un minut să se prăjească în unt fără a se colora şi apoi se dă deoparte pentru a se răci, 10 minute. Apoi, se adaugă laptele clocotit şi se desface făina, amestecând foarte bine. Se fierbe din nou 5 minute. Se potriveşte de sare şi nucşoară şi se lasă deoparte, la cald.</li>
+                        <li>Foile de lasagna se fierb 10 minute în apă cu puţin ulei şi apoi se scurg şi se folosesc pentru a monta lasagna cu carne tocată într-un vas de cuptor. Se pune pe fundul vasului un strat de sos alb, se acoperă în totalitate cu foi de lasagna, alt strat de sos alb, un strat de sos de carne, un strat de foi până la terminarea ingredientelor. Ultimul strat trebuie să fie de sos de carne. Se presară caşcavalul ras şi se dă la cuptor 30 de minute. Cu 5 minute înainte de a fi gata, se aşază mozzarella.</li>
+                    </ol>
+                    <img src="./resurse/imagini/lasagna.jpg" style="width:500px"></iframe>
+
+                </section>
+                <section>
+                    <h3>Musaca</h3>
+                    <ul>
+                        <li>600g cartofi <input type="checkbox"></li>
+                        <li>400g carne tocata <input type="checkbox"></li>
+                        <li>100g unt <input type="checkbox"></li>
+                        <li>100ml lapte <input type="checkbox"></li>
+                        <li>100ml suc de rosii <input type="checkbox"></li>
+                        <li>2 cepe <input type="checkbox"></li>
+                        <li>ulei de masline <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                        <li>piper <input type="checkbox"></li>
+                    </ul>
+                    <ol>
+                        <li>Se curăță cartofii, se taie cuburi și se pun la fiert. După ce s-au fiert se pasează și se freacă cu unt și lapte. Se adaugă sare după gust.</li>
+                        <li>Se curăță cepele și se toacă mărunt. Se încing 3 linguri de ulei, se prăjește ceapa 1 minut și se adaugă carnea tocată. Se pune sare și piper și se toarnă sucul de roșii. Se lasă pe foc mic până scade.</li>
+                        <li>Se unge cu unt o tavă întinsă. Se ia jumătate din cantitatea de piure, se pune în tavă și se nivelează, cât să acopere toată suprafața tăvii. Se pune toată cantitatea de carne și se întinde pe toată foaia de piure. Se acoperă cu restul de piure.</li>
+                        <li>Se coace 30 minute la foc moderat.</li>
+                    </ol>
+                    <img src="./resurse/imagini/musaca.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Pui cu smantana</h3>
+                    <p>Ingrediente:</p>
+                    <ul>
+                        <li>1 kg carne de pui <input type="checkbox"></li>
+                        <li>50g unt <input type="checkbox"></li>
+                        <li>400ml smantana dulce pentru gatit(25-32%) <input type="checkbox"></li>
+                        <li>1 ceapa mica <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                        <li>piper <input type="checkbox"></li>
+                        <li>patrunjel tocat <input type="checkbox"></li>
+        
+                    </ul>
+                    <ol>
+                        <li>Topiti untul intr-o tigaie mai mare si adanca - aici am folosit una de 28cm in diametru.</li>
+                        <li>Si pun bucatile de pui in tigaie, la rumenit.Le presarati cu putina sare si piper in proces.</li>
+                        <li>Rumeniti frumos pe ambele parti si la foc mai iute. Apoi turnati peste carne 1-2 pahare de apa, cat sa acopere pulpele putin.</li>
+                        <li>Cand incepe sa fiarba, faceti focul mic si acoperiti cu un capac. Asa lasati sa fiarba incet pana carnea este gatita complet - cea din comert, bineinteles va fi gata mai repede.</li>
+                        <li>In timpul procesului de fierbere eu periodic incerc carnea cu furculita, o mai intorc pe cealalta parte sa se gateasca uniform.</li>
+                        <li>Cum am observat ca s-a gatit si este moale carnea, scot capacul si las sa se evapore toata apa la foc mai rapid.</li>
+                        <li>Apoi pun ceapa tocata marunt si o las sa se caleasca 5-10 min.</li>
+                        <li>Turnati smantana, amestecati atent si lasati sa fiarba inca 10 min.</li>
+                        <li>La urma mai potrivesc de sare/piper si putin patrunjel tocat.</li>
+
+                    </ol>
+                    <img src="./resurse/imagini/pui cu smantana.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Tocanita de cartofi</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>1 kg cartofi taiati cubulete <input type="checkbox"></li>
+                        <li>100g ceapa tocata fin <input type="checkbox"></li>
+                        <li>2 linguri de ulei <input type="checkbox"></li>
+                        <li>1 catel de usturoi zdrobit <input type="checkbox"></li>
+                        <li>1 lingurita de paprika dulce <input type="checkbox"></li>
+                        <li>1 legatura de patrunjel verde <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                        <li>piper <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Se încinge pe foc mediu o cratiță de 1,1/2 – 2 litri. Se adaugă uleiul și imediat ceapa tocată fin, usturoiul zdrobit și, dacă folosiți, ardeiul gras tocat în cubulețe mici. Repet, folosirea ardeiului pentru tocănița de cartofi este opțională. S-a întâmplat să am un ardei gras portocaliu prin frigider și așa a ajuns și el în această combinație. Puteți renunța la el dacă nu aveți sau nu vă place gustul de ardei prea pronunțat (pentru că oricum vom adăuga paprika). Ceapa se va presăra de la început cu un praf de sare și se va căli pe foc mediu-mic, să se înmoaie fără să se rumenească.</li>
+                        <li>După ce ceapa s-a înmuiat, se adaugă paprika dulce și, dacă folosiți, tot acum se adaugă și pasta de ardei (opțional). Se amestecă rapid paprika în ceapa călită și imediat se adaugă 1/2 de litru de apă fierbinte, pentru că paprika se caramelizează ușor și își schimbă atât culoarea cât și aroma.</li>
+                        <li>Se adaugă în cuburile de cartofi. E important să fie cât de cât egale, ca să se gătească în același timp. Dacă e cazul, se completează tocanița de cartofi cu apă fierbinte, doar atât cât e nevoie pentru ca să fie acoperiți cartofii. Adăugăm frunza de dafin (doar dacă vrem) și sare după gust.</li>
+
+                    </ol>
+                    <img src="./resurse/imagini/tocanita.jfif" style="width:500px">
+                    
+                </section>
+                <section>
+                    <h3>Ciorba de legume</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>i ceapa medie <input type="checkbox"></li>
+                        <li>1 morcov <input type="checkbox"></li>
+                        <li>1 pastarnac <input type="checkbox"></li>
+                        <li>1/2 telina mica <input type="checkbox"></li>
+                        <li>1 ardei rosu <input type="checkbox"></li>
+                        <li>1 dovlecel <input type="checkbox"></li>
+                        <li>1 cartof <input type="checkbox"></li>
+                        <li>150g fasole verde congelata <input type="checkbox"></li>
+                        <li>suc de rosii <input type="checkbox"></li>
+                        <li>bors <input type="checkbox"></li>
+                        <li>1/2 patrunjel verde <input type="checkbox"></li>
+                        <li>cca 2 linguri de leustean congelat <input type="checkbox"></li>
+
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Ceapa tocata marunt, morcovul tocat si taiat rondele, pastârnacul tocat si taiat rondele, telina tocata marunt si ardeiul tocat le-am calit în putin ulei, pentru câteva minute. Am adaugat si prazul taiat rondele si am mai lasat 1 minut. Am pus 1 litru apa calda, completând treptat pana la 3 litri. Am potrivit de sare.</li>
+                        <li>Dupa 25 minute am pus dovlecelul si cartoful taiate cubulete, mazarea si fasolea verde, si am mai lasat cca 20 minute.</li>
+                        <li>Am pus sucul de rosii, iar la 5 minute am adaugat borsul si am potrivit de sare.</li>
+                        <li>Dupa cca 2 minute am stins focul si am adaugat patrunjelul si leusteanul.</li>
+                    </ol>
+                    <img src="./resurse/imagini/ciorba.png" style="width:500px">
+                </section>
+                <section>
+                    <h3>Sarmale</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>1-2 verze murate <input type="checkbox"></li>
+                        <li>1kg carne tocata de porc <input type="checkbox"></li>
+                        <li>1 ceasca de orez(4-5 linguri) <input type="checkbox"></li>
+                        <li>1-2 cepe medii <input type="checkbox"></li>
+                        <li>200g pasta de tomate <input type="checkbox"></li>
+                        <li>2-3 linguri de ulei <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                        <li>piper <input type="checkbox"></li>
+                        <li>cimbru <input type="checkbox"></li>
+                        <li>foaie de dafin <input type="checkbox"></li>
+
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Varza se deface în foi, se spală, se lasă la desărat şi dezacrit, dacă e nevoie, apoi se curăţă de cotoare şi se aşază foile care arată cel mai bine pe un platou. Foile de varză care nu sunt potrivite pentru umplut, se toacă fideluţă.</li>
+                        <li> Între timp, ceapa tocată mărunt se căleşte puţin într-o tigaie încinsă cu ulei, se adaugă orezul spălat bine în apă caldă şi scurs, se călesc împreună pentru 1-2 minute amestecând continuu. Se adaugă apoi 2-3 linguri pastă de tomate şi se stinge totul cu 1 pahar de apă. Acum se lasă să fiarbă descoperit până începe să se umfle orezul, iar sosul începe să scadeă. Se lasă la răcit, iar apoi această compoziție se amestecă bine cu carnea tocată, sare, piper, cimbru, boia dulce.</li>
+                        <li>Se umple fiecare foaie de varză cu câte o linguriţă de compoziţie şi se rulează uşor sarmalele, astfel încât să nu se desfacă la fiert.</li>
+                        <li>Varza tocată mărunt se amestecă bine cu o lingură ulei, cu restul de pastă de tomate şi condimentele.</li>
+                        <li>Într-o cratiţă cu fundul mai gros, se aşază mai întâi un strat de varză tocată, apoi se aranjează sarmalele în straturi, lăsând la mijloc un gol circular, care se umple cu varză tocată.</li>
+                        <li>Deasupra se presară varză tocată. Se toarnă 2-3 pahare cu apă încălzită, se acoperă cratiţa cu un capac potrivit şi se pun la fiert la foc mic. Sarmalele în foi de varză murată se lasă câteva ore, răsucind din când în când cratiţa, ca să nu se prindă sarmalele de fund şi să se afume.</li>
+                        <li>Când sunt fierte, sarmalele se dau la cuptor să se rumenească frumos.</li>
+                    </ol>
+                    <img src="./resurse/imagini/sarmale.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Paste carbonara</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>400g spaghete <input type="checkbox"></li>
+                        <li>400g bacon afumat <input type="checkbox"></li>
+                        <li>100g parmezan <input type="checkbox"></li>
+                        <li>300ml smantana pentru gatit <input type="checkbox"></li>
+                        <li>4 oua <input type="checkbox"></li>
+                        <li>2 catei de usturoi <input type="checkbox"></li>
+                        <li>o singura de unt <input type="checkbox"></li>
+                        <li>ulei <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Spaghetele se fierb urmand instructiunile de pe pachet. In apa pentru spaghete se pune un praf de sare si o lingura de unt.</li>
+                        <li>Baconul se taie suvite subtirele si se caleste in 2,3 linguri de ulei. Cand incepe sa se rumeneasca se adauda usturoiul tocat marunt.</li>
+                        <li>Se caleste totul pana ce usturoiul prinde o culoare aurie. Intr-un castron se bat ouale bine cu un praf de sare, se adauga parmezanul si se amesteca pana se face ca o pasta. Se incorporeaza smantana si se omogenizeaza totul.</li>
+                        <li>Se adauga totul peste baconul rumenit. Se amesteca usor si continuu la foc mic 3-4 min. pana se coaguleaza usor oul. Se adauga peste paste la fiecare portie.</li>
+
+                    </ol>
+                    <img src="./resurse/imagini/spaghete carbonara.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Wrap</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>2 foi tortilla <input type="checkbox"></li>
+                        <li>fasii de piept de pui <input type="checkbox"></li>
+                        <li>1 mana de varza alba taiata fideluta <input type="checkbox"></li>
+                        <li>1 morcov ras <input type="checkbox"></li>
+                        <li>1 ardei capia <input type="checkbox"></li>
+                        <li>1 rosie taiata felii <input type="checkbox"></li>
+                        <li>patrunjel <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                        <li>piper <input type="checkbox"></li>
+                        <li>sos dulce/picant <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Pune foaia de tortilla la incalzit pentru cateva secunde, pentru a o face mai usor de modelat. </li>
+                        <li>Asaza in mijlocul foii fasii de pui, legume si verdeturi ( aici te poti juca cu ingredientele cum iti pofteste inima), stropeste cu putin sos sweet chili si impatureste tortilla ca pe o pelincuta. Strange cu grija, sa nu se desfaca. Taie apoi oblic in doua si aranjeaza tortilla wraps pe platou. </li>
+                        <li>Daca preferi sa fie mai suculenta, intinde intai sos de iaurt cu menta sau marar pe foaia de tortilla, apoi adauga ingredientele si impacheteaza. </li>
+                    </ol>
+                    <img src="./resurse/imagini/wrap.jpg" style="width:500px">
+                </section>
+
+                <section>
+                    <h3>Mucenici</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>1 kg faina <input type="checkbox"></li>
+                        <li>400g zahar <input type="checkbox"></li>
+                        <li>4 oua <input type="checkbox"></li>
+                        <li>100g margarina <input type="checkbox"></li>
+                        <li>40g drojdie <input type="checkbox"></li>
+                        <li>400ml lapte <input type="checkbox"></li>
+                        <li>200g miere <input type="checkbox"></li>
+                        <li>200g nuca macinata <input type="checkbox"></li>
+                        <li>50ml ulei <input type="checkbox"></li>
+                        <li>esente dupa gust <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Din drojdie, 2 linguriţe de zahăr, puţin lapte şi puţină făina, luate din ingredientele de mai sus, se face o maia care se lasă la crescut. </li>
+                        <li>Se cerne făina într-un vas, i se face o gaură la mijloc în care se pun maiaua crescută, 3 ouă bătute cu un praf de sare, 200 g zahăr, laptele, margarina moale şi aromele.</li>
+                        <li>Se frământă aluatul cu mâinile înmuiate în ulei şi se lasa la dospit. Din aluatul crescut se rupe câte o bucată de mărimea unui măr din care se fac 2 suluri lungi şi subţiri care se împletesc în forma cifrei 8.</li>
+                        <li>Se lasa sfinţişorii puţin la crescut, se ung cu un ou batut, se aşază într-o tavă unsă cu ulei şi tapetată cu hârtie de copt. Se dau la cuptorul preîncalzit până se rumenesc.</li>
+                        <li>Între timp, se fierbe un sirop dintr-un pahar de apa şi restul de zahar. Pentru a ramâne moi, sfinţişorii se trec rapid (1-2 secunde) prin siropul calduţ, imediat ce au fost scoşi din cuptor, apoi se ung cu miere şi se presară cu nucă.</li>
+                    </ol>
+                    <img src="./resurse/imagini/mucenici.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Eclere</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>250g faina <input type="checkbox"></li>
+                        <li>100ml ulei <input type="checkbox"></li>
+                        <li>300ml apa <input type="checkbox"></li>
+                        <li>5 oua <input type="checkbox"></li>
+                        <li>3 plicuri zahar vanilat <input type="checkbox"></li>
+                        <li>un praf de sare <input type="checkbox"></li>
+                        Crema
+                        <li>2 oua <input type="checkbox"></li>
+                        <li>100g zahar <input type="checkbox"></li>
+                        <li>1 plic zahar vanilat <input type="checkbox"></li>
+                        <li>2 linguri de faina cu varf <input type="checkbox"></li>
+                        <li>500ml lapte <input type="checkbox"></li>
+                        <li>esenta de vanilie <input type="checkbox"></li>
+                        Glazura
+                        <li>50g unt <input type="checkbox"></li>
+                        <li>100g ciocolata cu lapte <input type="checkbox"></li>
+                        <li>1 lingura apa <input type="checkbox"></li>
+                        <li>1 lingura ulei <input type="checkbox"></li>
+                        <li>2 linguri cacao <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Intr-o craticioara puneti apa la fiert impreuna cu uleiul si sarea. Amestecati faina cu zaharul vanilat. Cand apa fierbe luati craticioara de pe foc si adaugati faina. Amestecati energic pana ce compozitia se desprinde cu usurinta de pe craticioara.</li>
+                        <li>Adaugati ouale pe rand, unul cate unul amestecand cu un mixer dupa fiecare, pana se incorporeaza.</li>
+                        <li>Cu lingura puneti compozitia intr-o punga sau posh si dati forma eclerelor intr-o tava tapetata cu hartie. Adaugati suficienta compozitie ca acestea sa nu va iasa foarte joase. Coaceti cojile la 180°C timp de 25 de minute.</li>
+                        <li>Puneti ouale intr-o craticioara si le bateti bine. Adaugati zaharul si zaharul vanilat.</li>
+                        <li>Turnati apoi faina si amestecati pana la omogenizare.</li>
+                        <li>Infierbantati laptele si il adaugati treptat peste compozitia preparata inainte. Puneti oala pe foc, adaugati esenta de vanilie si lasati sa se ingroase compozitia amestecand tot timpul pentru a nu se lipi. Cand compozitia s-a ingrosat suficient adaugati untul taiat si amestecati pana acesta s-a topit.</li>
+                        <li>Amestecati toate ingredientele si le puneti la bain Marie pana s-au topit. Puteti pune si direct pe foc insa cu mare grija sa nu se incinga foarte tare. Luati de pe foc atunci cand ciocolata incepe sa se topeasca si amestecati continuu pana ce toate ingredientele s-au topit si incorporat. Daca este nevoie mai puneti pe foc pentru cateva secunde.</li>
+                    </ol>
+                    <img src="./resurse/imagini/eclere.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Clatite americane</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>400g faina <input type="checkbox"></li>
+                        <li>500ml lapte <input type="checkbox"></li>
+                        <li>4 oua <input type="checkbox"></li>
+                        <li>3 lingurite rase praf de copt <input type="checkbox"></li>
+                        <li>1/2 lingurita rasa bicarbonat <input type="checkbox"></li>
+                        <li>un varf sare <input type="checkbox"></li>
+                        <li>5 linguri zahar <input type="checkbox"></li>
+                        <li>zahar vanilat <input type="checkbox"></li>
+                        <li>6 linguri ulei <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Amestecam faina cu praful de copt, bicarbonatul si zaharul si apoi dam prin sita amestecul obtinut.</li>
+                        <li>Separam albusurile da galbenusuri. Albusurile le mixam foarte bine, iar galbenusurile le mixam (dar nu mult, cca 3 minute) cu un varf de sare.</li>
+                        <li>Amestecam laptele si uleiul si il adaugam galbenusurilor.</li>
+                        <li>Adaugam mixul de lapte si galbenusuri peste faina, amestecam bine si adaugam la sfarsit albusurile,  amestecand de jos in sus cu grija.</li>
+                        <li>Obtinem un aluat mai dens, dar cu o consistenta pufoasa (gen pandispan).</li>
+                        <li>Incingem o tigaie teflonata si o ungem cu un cubulet de unt dupa care stergem cu un servetel tot untul din tigaie. In acest fel, vom obtine pancakes cu o suprafata aurie uniforma. Daca ramane untul in tigaie suprafata va arata ca cea de clatite adica cu pete maronii. Ungem tigaia cu unt o singura data, la inceput, cand ne apucam de prajit pancakes.</li>
+                        <li>In centrul tigaii incinse, adaugam cu ajutorul unui polonic, aluatul. Dupa ce l-am turnat in tigaie nu ii atingem in nici un caz suprafata. El se va intinde de unul singur atat cat va fi nevoie (maxim 6-7 cm diametru).</li>
+                        <li>In momentul in care apar primele basicute iar suprafata isi pierde luciul, intoarcem pancakesul pe cealalata parte.</li>
+                        <li>Le prajim in felul acesta pe toate.</li>
+                        <li>Se servesc cu sirop de artar, miere, zahar pudra, sos de ciocolata,etc. Eu le-am servit cu sos de ciocolata.</li>
+                    </ol>
+                    <img src="./resurse/imagini/clatite americane.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Placinta cu mere</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        Blat
+                        <li>500g faina <input type="checkbox"></li>
+                        <li>200g unt moale <input type="checkbox"></li>
+                        <li>100g smantana <input type="checkbox"></li>
+                        <li>1 ou <input type="checkbox"></li>
+                        <li>150g zahar <input type="checkbox"></li>
+                        <li>2 fiole zahar vanilat <input type="checkbox"></li>
+                        <li>10g praf de copt <input type="checkbox"></li>
+                        <li>1 varf de cutit de sare <input type="checkbox"></li>
+                        Umplutura
+                        <li>1,5kg mere <input type="checkbox"></li>
+                        <li>3 linguri zahar <input type="checkbox"></li>
+                        <li>1 lingurita cu varf de scortisoara <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Pentru a face umplutura plăcintei cu mere, spală merele, dă-le pe răzătoarea mare (cu tot cu coajă, dacă nu te deranjează). Pune-le la calit într-un vas care nu lipește, cu 3-5 linguri de zahăr. Adaugă și scorțișoara după 5 minute. Amestecă ocazional și, când se mai evaporă zeama, dă de pe foc și lasă la răcit.</li>
+                        <li>Într-un castron mare, freacă untul cu zahărul. Adaugă esența de vanilie și oul și bate ușor până obții un rezultat cremos. Pune și smântâna, amestecă până la omogenizare.</li>
+                        <li>Separat, pentru a pregăti aluatul de plăcintă cu mere, combină făina cu sarea și praful de copt apoi adaugă peste amestecul cremos de mai sus, amestecând bine cu o lingură de lemn. Când aluatul care se formează se întărește și nu mai merge amestecat cu lingura, frământă cu mâna.</li>
+                        <li>Când nu mai e lipicios aluatul pentru plăcinta cu mere, împarte-l în 2 bile egale. Presară făină pe masă și întinde cu făcălețul una din cele 2 bile (cât să-ți acopere tava în care vrei să faci plăcinta). Pune prima foaie în tavă și așează umpltura deasupra.</li>
+                        <li>Întinde și a doua bilă de aluat (fix cum ai procedat cu prima) și apoi acoperă cu ea umplutura din tavă.</li>
+                        <li>Dă tava la cuptorul preîncălzit timp de 30-35 de minute sau până când observi că s-a copt aluatul.</li>
+                        <li>Scoate din cuptor și lasă puțin la răcit. Presară zahăr pudră pe deasupra plăcintei și porționeaz-o.</li>
+                    </ol>
+                    <img src="./resurse/imagini/placinta cu mere.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Lava cake</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>200 g ciocolata de buna calitate (60-70% continut cacao) <input type="checkbox"></li>
+                        <li>200 g unt <input type="checkbox"></li>
+                        <li>160 g zahar <input type="checkbox"></li>
+                        <li>40 g faina <input type="checkbox"></li>
+                        <li>4 oua medii <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Pentru inceput tapetam bine bine formele cu unt si faina, apoi le punem in congelator.</li>
+                        <li>Punem intr-o craticioara untul la temperatura camerei, zaharul si ciocolata taiata in bucatale mici si le topim la bain-marie.</li>
+                        <li>Dupa ce untul si zaharul s-au topit complet, stingem focul, scoatem craticioara din bain marie si adaugam ouale, unul cate unul. Amestecam bine cu un tel dupa fiecare ou adaugat, il adaugam pe urmatorul numai dupa ce precedentul a fost perfect incorporat in compozitia de ciocolata.</li>
+                        <li>La sfarsit adaugam treptat faina si amestecam cu grija, de jos in sus, pana cand o inglobam perfect in aluatul delicioaselor lava cake.</li>
+                        <li>Scoatem formele din congelator si le umplem pe trei sferturi cu aluatul lava cake. Acoperim formele cu folie de aluminiu si le introducem din nou in congelator pentru 1 ora.</li>
+                        <li>Formele de muffins umplute cu lava cake se pot pastra in congelator, acoperite cu o folie de aluminiu, pana la 1 luna. </li>
+                        <li>In momentul in care dorim sa le pregatim, scoatem formele din congelator, eliminam folia de alumniu si le coacem in cuptorul preincalzit la 220°C pentru 12 minute, nu mai mult.</li>
+                        <li>Pentru ca nu toate cuptoarele coc la fel, am stat langa usa cuptorului sa observ etapele si sa vi le explic: la inceput se vor coace marginile si apoi, treptat, se va coace si centrul. Cand toata suprafata vulcanului de ciocolata este lucioasa, atunci este gata.</li>
+                        <li>Scoatem formele din cuptor, le lasam cca 5 minute sa se raceasca in forma, apoi le rasturnam pe farfurii individuale.</li>
+                        <li>Putem servi aceste minunate lava cake alaturi de sosuri de fructe sau simple, pudrate cu zahar vanilat.</li>
+                    </ol>
+                    <img src="./resurse/imagini/lava cake.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Chec</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>2 plicuri zahar vanilat bourbon <input type="checkbox"></li>
+                        <li>5 oua mici <input type="checkbox"></li>
+                        <li>200 g faina <input type="checkbox"></li>
+                        <li>200 g zahar <input type="checkbox"></li>
+                        <li>1 lingurita praf de copt <input type="checkbox"></li>
+                        <li>2 linguri cacao <input type="checkbox"></li>
+                        <li>4 linguri ulei <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Separam albusurile de galbenusuri si batem albusurile cu un praf de sare, cu ajutorul mixerului. </li>
+                        <li>Cand albusurile au devenit spumoase adaugam zaharul vanilat bourbon si zaharul tos pana cand obtinem o spuma tare si lucioasa.</li>
+                        <li>Galbenusurile se amesteca cu uleiul ca la maioneza, se toarna cate putin, si se pun peste albusurile batute spuma amestecand de jos in sus cu o spatula.</li>
+                        <li>Se amesteca faina cu praful de copt si se pune peste amestecul de albusuri si galbenusuri lingura cu lingura amestecan tot cu spatula cu miscari largi de jos in sus ptr a nu scoate aerul din albusuri.</li>
+                        <li> Impartim compozitia formata in doua si intr-una din ele punem cacaoa pe care am amestecat-o bine cu 2-3 linguri de apa calda. </li>
+                        <li>Intr-o tava mare de cozonac tapetata cu hartie de copt (eu am folosit forme cumparate din hartie) incepem  sa formam checul.</li>
+                        <li>Punem in tava cu o lingura din compozitia alba si peste din compozitia cu cacao, se procedeaza la fel pana terminam ambele comozitii.Vom obtine un chec pufos marmorat.</li>
+                        <li>Dam checul la cuptor la aragazul incins inainte la 180°c ptr 30-40 minute pana ce checul e bine copt, cand e pe jumatate copt am pus peste el cateva alune de padure.</li>
+                    </ol>
+                    <img src="./resurse/imagini/chec.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Cozonac</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        Blat
+                        <li>1 kg făină <input type="checkbox"></li>
+                        <li>50 grame drojdie proaspătă <input type="checkbox"></li>
+                        <li>250 grame zahăr <input type="checkbox"></li>
+                        <li>3-4 pliculețe zahăr vanilat <input type="checkbox"></li>
+                        <li>500 ml lapte <input type="checkbox"></li>
+                        <li>100 ml ulei <input type="checkbox"></li>
+                        <li>5 gălbenușuri <input type="checkbox"></li>
+                        <li>sare <input type="checkbox"></li>
+                        <li>esenta lamaie+coaja rasa de lamaie <input type="checkbox"></li>
+                        Umplutura
+                        <li>400g nuca <input type="checkbox"></li>
+                        <li>5 albusuri <input type="checkbox"></li>
+                        <li>5 linguri zahar <input type="checkbox"></li>
+                        <li>3 linguri cacao <input type="checkbox"></li>
+                        <li>rahat, stafide <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Cernem făina de 3 ori într-un vas mare, încăpător. Facem apoi o “groapă” în mijlocul vasului (nu ajungem însă la fundul vasului). Punem laptele împreună cu zahărul și zahărul vanilat pe foc, încălzindu-l ușor. Trebuie să se topească zahărul, însă să nu fiarbă.</li>
+                        <li>Dizolvăm drojdia în câteva linguri din laptele încălzit și o turnăm în groapa pe care am făcut-o în făină.</li>
+                        <li>După ce turnăm drojdia presărăm puțină făină (făina pe care o avem deja în vas, nu vorbim de altă făină) deasupra (cât să acoperim) și așteptăm 10 minute.</li>
+                        <li>După 10 minute va arăta așa. Drojdia s-a activat și se poate vedea cum a erupt, ca un vulcan. Dacă nu s-a crăpat și nu a „erupt”, atunci mai așteptăm.</li>
+                        <li>Separat frecăm gălbenușurile cu sarea, punem coaja de lămâie și apoi adăugăm această compoziție în vasul cu făină. Turnăm și restul de lapte și cu mâinile începem să amestecăm. Omogenizăm bine.</li>
+                        <li>Începem să turnăm în fir subțire uleiul, cu care ne ungem și mâinile și continuăm să frământăm. Din când în când mai turnăm ulei. Dacă e nevoie turnați mai mult de 100 ml.</li>
+                        <li>La început, când făcea mama cozonaci (pe atunci încă novice) când îi frământa și aluatul încă se lipea de mâini și de vas adăuga făină. Ieșeau niște cozonci de îi puteai folosi pe post de bolovani când se răceau. Așadar nu adăugați făină, ci ulei!</li>
+                        <li>Dacă aveți răbdare frământați-i 30 de minute. Eu mai mult de 10-15 minute nu am făcut-o niciodată. Apoi acoperiți vasul și lăsați-l la căldură, la dospit.</li>
+                        <li>Cât dospește aluatul facem umplutura. Batem albușurile spumă cu zahărul, punem nuca, praful de cacao și amestecăm bine.</li>
+                        <li>Când aluatul a crescut considerabil (1 oră jumătate- 2) îl împărțim în 2 bile. Fiecare bilă o împărțim în 2.</li>
+                        <li>Întindem fiecare bilă pe un blat uns cu ulei și punem umplutură.</li>
+                        <li>Rulăm fiecare foaie.</li>
+                        <li>Împletim în 2, punem în tăvi tapetate cu hârtie de copt și mai lăsăm la crescut.</li>
+                        <li>Înainte să-I băgăm în cuptor îi ungem cu gălbenuș de ou și presărăm zahăr.</li>
+                        <li>Coacem la foc mediu spre mare primele 15 minute, apoi lăsăm focul mai mic. Dar asta depinde de fiecare cuptor. Mie de obicei au tentința să mi se bronzeze prea tare așa că după jumătate de oră-40 de minute pun hârtie de copt deasupra lor, în cuptor. Astfel nu se înnegresc, nu se ard, rămân frumoși. Eu îi coc fix o oră.</li>
+
+                    </ol>
+                    <img src="./resurse/imagini/cozonac.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Briose cu banane</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>250g faina <input type="checkbox"></li>
+                        <li>100g zahar <input type="checkbox"></li>
+                        <li>2 oua <input type="checkbox"></li>
+                        <li>3 banane bine coapte <input type="checkbox"></li>
+                        <li>180g ciocolata <input type="checkbox"></li>
+                        <li>115g unt topit <input type="checkbox"></li>
+                        <li>1 praf de copt <input type="checkbox"></li>
+                        <li>1 lingurita vanilie <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Pornim cuptorul la 180°C si punem cosulete de briose in tava speciala.</li>
+                        <li>Tocam ciocolata grosier cu un cutit bine ascutit.</li>
+                        <li>Intr-un bol incapator punem bananele si le pasam cu furculita.</li>
+                        <li>Apoi adaugam zaharul, untul topit, ouale, vanilia. Amestecam.</li>
+                        <li>Punem faina si praful de copt. Omogenizam. La final amestecam in aluatul de briose ciocolata maruntita.</li>
+                        <li>Umplem ¾ din fiecare cosulet cu compozitie, apoi dam tava la cuptor 20-25 minute sau pana trec testul cu scobitoarea.</li>
+                    </ol>
+                    <img src="./resurse/imagini/briose.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Gogosi</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>500 g faina <input type="checkbox"></li>
+                        <li>350ml zahar <input type="checkbox"></li>
+                        <li>2 galbenusuri <input type="checkbox"></li>
+                        <li>2 pliculete zahar vanilat <input type="checkbox"></li>
+                        <li>un praf de sare <input type="checkbox"></li>
+                        <li>coaja de lamaie <input type="checkbox"></li>
+                        <li>1 lingura zahar <input type="checkbox"></li>
+                        <li>30 g drojdie proaspata sau 10 g drojdie uscata <input type="checkbox"></li>
+                        <li>10g zahar pudra vanilat <input type="checkbox"></li>
+                        <li>ulei pentru prajit <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Se amesteca drojdia cu lingura de zahar si cu laptele caldut si se lasa un pic, pana face spuma. Apoi se bate bine cu galbenusurile si cu 300 g faina cu un mixer. Se adauga sarea, zaharul vanilat, coaja de lamaie (la care nu fac economie)  si restul de faina. Se framanta sa fie un aluat elastic si molcut. Se lasa la dospit 30 min.</li>
+                        <li>Dupa ce a dospit, aluatul pentru gogosi pufoase se intinde pe un blat cu faina de grosime de un deget subtire. Se decupeaza rondele cu o forma speciala sau un pahar cu marginile subtiri. Ale mele au fost de cca. 6 cm diametru.</li>
+                        <li>Aluatul pentru gogosi pufoase se mai lasa pe tava la dospit 10 min.</li>
+                        <li>Se incinge bine uleiul si se pun gogosile in uleiul fierbinte, iar focul se da pe mic. Se intorc cu 2 furculite si pe partea cealalta si cand devin aurii se scot pe servetele absorbante, se scutura usor si se pun intr-un bol si se presara cu zahar pudra vanilat cat sunt inca fierbinti.</li>
+                    </ol>
+                    <img src="./resurse/imagini/gogosi.jpg" style="width:500px">
+                </section>
+                <section>
+                    <h3>Tort de biscuiti</h3>
+                    <p>Ingrediente</p>
+                    <ul>
+                        <li>biscuiți cam 1 kg <input type="checkbox"></li>
+                        <li>5 ouă <input type="checkbox"></li>
+                        <li>7 linguri rase de amidon <input type="checkbox"></li>
+                        <li>200 grame zahăr <input type="checkbox"></li>
+                        <li>10 linguri de lapte <input type="checkbox"></li>
+                        <li>200 grame unt <input type="checkbox"></li>
+                        <li>cacao <input type="checkbox"></li>
+                        <li>esență de rom <input type="checkbox"></li>
+                        <li>opțional 100-150 ml smântână pentru frișcă <input type="checkbox"></li>
+                    </ul>
+                    <p>Preparare</p>
+                    <ol>
+                        <li>Pregătim pentru început crema, ca să aibă destul timp să se răcească. Batem ouăle cu zahărul bine de tot, apoi adăugăm laptele, cacaua (după gustul fiecăruia) și amidonul. Punem pe foc (am folosit o „tablă” mai groasă, ca să nu pun direct pe ochiul aragazului) și amestecăm să nu se lipească. În câteva minute se va îngroșa, semn că este gata. Luăm de pe foc, adăugăm untul și esența de rom după care lăsăm la rece.</li>
+                        <li>Tocam ciocolata grosier cu un cutit bine ascutitDacă ați ales să folosiți și smântână pentru frișcă, atunci bateți bine cu mixerul. Adăugați în crema răcită bine, frișca și omogenizați. Îi va da o textură mult mai plăcută, va rezulta o cremă mult mai bună.</li>
+                        <li>Urmează să ne ocupăm de biscuiți. Încălzim 500 de ml de lapte, cu atenție să fie doar călduț, nu să frigă că altfel se va face o harcea parcea. Punem puțină esență de rom și înmuiem fiecare biscuite pe ambele părți înainte de a-l așeza în tavă. După ce așezăm primul strat ungem cu un strat generos de cremă (pentru că biscuiții vor absorbi și ei din cremă). La fel procedăm până la final.</li>
+                        <li>Deasupra ungem cu cremă și mai departe fiecare face cum dorește. Am văzut mai multe variante, fie cu cacao pudrată, fie lăsat simplu, cu biluțe, sau orice vă trece prin cap. Noi întotdeauna am ornat cu frișcă.</li>
+                    </ol>
+                    <img src="./resurse/imagini/tort de biscuiti.jpg" style="width:500px">
+                </section>
+                
+                
+            </div>
+            <p>Lasa-ne o recomandare, iar noi vom incerca sa o facem si sa publicam si reteta dorita de tine!</p>
+            <label>Introduceti o recomandare:</label><input type="text" id="recomandare">
+            <div id="recomandari"></div>
+            <p>Retete</p>
+                <ul>
+                    <li>Preparate dulci</li>
+                    <li>Preparate sarate</li>
+                </ul>
+            <p>Click aici ca sa descarci poza: </p>
+            <a href="./resurse/imagini/cupcake.jpg" download>
+                <img src="./resurse/imagini/cupcake.jpg" alt="cupcake">
+            </a>
+            <details>
+                <summary>
+                    inspiratia:
+                </summary>
+                <iframe id="v1" name="baking adventure" width="560" height="315" src="https://www.bakingadventure.net/"></iframe><br>
+            </details>
+            <br>
+            <!--
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yKNxeF4KMsY" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            -->
+            <br>
+            <section>
+                <h2>Cateva videoclipuri:</h2>
+                <div>
+                <a href="https://www.youtube.com/embed/6FJ8hFF8V2Y" target="ifr-video">Briose cu ciocolata</a>
+                <a href="https://www.youtube.com/embed/fHJKPjtVKc8" target="ifr-video" >Briose cu capsune</a>
+                <a href="https://www.youtube.com/embed/I-ubsa39OEg" target="ifr-video" >Briose cu banane</a><br/>
+                <iframe id="v2" name="ifr-video" width="560" height="315" src="https://www.youtube.com/embed/6FJ8hFF8V2Y"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <!--
+            <section>
+                <a href="https://www.youtube.com/embed/qtlhdIfojmc" target="ifr-video">Reteta tort vanilie</a>
+                <a href="https://www.youtube.com/embed/dsJtgmAhFF4" target="ifr-video" >Reteta tort ciocolata</a>
+                <a href="https://www.youtube.com/embed/Wtxbt-CpA2s" target="ifr-video" >Reteta tort căpșuni</a><br/>
+                <iframe name="ifr-video" width="560" height="315" src="https://www.youtube.com/embed/qtlhdIfojmc" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            -->
+            
+            
+            
+            <a href="" download></a>
+            
+            
+            <br><q>It's all about a balancing act between time, temperature and ingredients: That's the art of baking.</q><b> - Peter Reinhart.</b>
+        </main>
+        <footer>
+            <section id="contact">
+                <address>
+                    <b>Scris de Rogoza Raluca</b>
+                    <br>
+                    <b>Telefon: <a href="tel:+40722222222">0722222222</a></b><br>
+                    <b>Locatie: <a href="https://www.google.com/maps/place/Facultatea+de+Matematic%C4%83+%C8%99i+Informatic%C4%83+-+Universitatea+din+Bucure%C8%99ti/@44.4355355,26.097398,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff472f47f047:0x493984726f0235f9!8m2!3d44.4355355!4d26.0995867" target="_blank">Facultatea de matematica si informatica</a></b><br>
+                    <b>Email: <a href="mailto:raluca_rogoza@yahoo.com">raluca_rogoza@yahoo.com</a></b><br>
+                    <b>Whatsapp: <a href="https://wa.me/+40741310272" target="_blank">Incepe o conversatie</b></a>
+                </address>
+                
+                <p><b>Site-ul a fost conceput pe data de <time datetime="2022-02-25">25 februarie 2022</time></b></p>
+                <b><a href="#">Mergi catre inceputul paginii</a></b>
+                <p><b><small>&copy; Toate drepturile rezervate.</small></b></p>
+            </section>
+        </footer>
+    </body>
+
+</html>

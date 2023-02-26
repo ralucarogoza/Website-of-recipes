@@ -1,0 +1,246 @@
+/*
+html{
+    --margine-main:40px;
+    --inaltime-buton:2.5em;
+    --dim-text:17px;
+    font-size:var(--dim-text);
+}
+*/
+body{
+    --backgr-pagina:bisque;
+    --culoare-buton:bisque;
+    --culoare-buton-selectat:rgb(255, 168, 248);
+    --culoare-border: #3A2D40;
+    --mod-afisare-pagina:grid;
+    --culoare-nav:rgb(150, 189, 184);
+    --inaltime-meniu:20px;
+    background-image: url("../imagini/wallpaper.webp");
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin-left:var(--margine-main);
+    margin-right:var(--margine-main);
+}
+
+section{
+    border:1px solid turquoise;
+    padding:15px;
+}
+
+
+#container{
+    display: grid;
+    grid-template-areas: "z-preparates z-preparated"
+                        "z-preparates z-preparated"
+                        "z-comun z-comun";
+    grid-template-columns: 1fr 1fr;
+}
+#preparates{
+    grid-area: z-preparates;
+}
+
+#preparated{
+    grid-area: z-preparated;
+}
+
+#comun{
+    grid-area: z-comun;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+
+#salut{
+    border: none;
+}
+
+#c1{
+    border: 2px solid green;
+}
+
+#divcitat{
+    height: 60px;
+    text-align:center;
+    padding: 10px;
+}
+
+ul.meniu{
+    display:flex;
+}
+
+
+ul.meniu, ul.submeniu, ul.submeniu2{
+    padding:0;
+    margin:0;
+}
+
+ul.submeniu{
+    z-index:10;
+    position:relative;
+    left:-2px;
+}
+ul.submeniu2{
+    z-index:10;
+    position:relative;
+    left:-2px;
+}
+
+nav{
+    background-color:var(--culoare-nav);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+
+/*
+#s1 h3{
+    background-color: red;
+}
+*/
+
+ul.meniu li{
+    list-style-type:none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: var(--culoare-nav); 
+    height: var(--inaltime-meniu);
+    line-height:20px;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: 0px 0px 5px grey;
+    transition:background-color 2s linear, text-shadow 0.7s linear;
+}
+ul.meniu li a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    display:block;
+    width:100%;
+    height:100%;
+    
+}
+
+#salut h1, #inregistrare h2, #orar h2, #center2{
+    text-align: center;
+}
+
+
+ul.meniu>li:hover{
+    overflow: visible;
+}
+ul.meniu li:hover{
+    background-color: rgb(48, 221, 204);
+    box-shadow:0px 0px 2px rgb(25, 156, 143);
+}
+
+/*schimba cand vii cu cursorul pe link*/
+ul.meniu li a:hover{
+    background-color: rgb(92, 180, 171);
+    
+}
+
+#chk-meniu, #img_meniu{
+    display:none;
+}
+
+#container{
+    counter-reset: nrsectiune;/* default e 0*/
+}
+
+#container h2::before{
+    counter-increment: nrsectiune;
+    content: counter(nrsectiune, upper-alpha) ")";
+    display: inline-block;
+    background-color: rgb(73, 179, 168);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width:700px){
+    /*
+    #chk-meniu{
+        display:inline;
+    }
+    */
+    ul.meniu{
+        display:none;
+        position:relative;
+        animation:animatie_meniu 0.7s linear 1;
+    }
+    ul.meniu li{
+        width:100%;
+        box-sizing:border-box;
+        overflow:hidden;  /*pt submeniu*/
+        position:relative;
+    }
+    #chk-meniu:checked~ul.meniu{
+        display:block;
+    }
+
+    ul.meniu ul{
+        position:absolute;
+        left:0px;
+        z-index:100;
+        width:100%;
+    }
+   
+    ul.meniu ul li{
+        background-color:orange;
+    }
+
+    #img_meniu{
+        height:var(--inaltime-meniu);
+        width:auto;
+        display:inline-block;
+    }
+
+    #container{
+        grid-template-areas: "z-preparates"
+                            "z-preparated";
+        grid-template-columns: 1fr;
+    }
+    #v1, #v2{
+        width: 100%;
+    }
+}
+
+@keyframes animatie_meniu{
+    0%{
+        transform:scaleY(0);
+        opacity: 0;
+        background-color: transparent;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    75%{
+        opacity: 0.3;
+    }
+    100%{
+        transform:scaleY(1);
+        opacity: 1;
+        background-color: turquoise;
+    }
+}
+
+th,td{
+	border:1px solid black;
+	padding:5px;
+}
+th{
+	text-transform: capitalize;
+}
+table{
+	border-collapse:collapse;
+	empty-cells:show;
+	margin:0 auto;
+}
